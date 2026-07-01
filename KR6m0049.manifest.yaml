@@ -1,0 +1,93 @@
+canonical_identifier: bkk:krp/KR6m0049/v1
+canonical_location: https://kanripo.org/bkk/KR6m0049/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 物不遷論辯解
+  identifiers:
+    alt_id:
+    - X54n0880
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X54/X54n0880.xml
+    old_id: X54n0880
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6m0049_000.yaml, hash: 'sha256:9ab9252af4207103f81a0ae0f691f967abc756ee3f013c409d60985a1cae4462'}
+  - {seq: 1, filename: KR6m0049_001.yaml, hash: 'sha256:5f705991dcf6e8a4cfa970cc54267c13295d6e9de4e062e64e9121078715288a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6m0049_000.markers.yaml, hash: 'sha256:d1008e45b13f17ebb2f71fcb59d955110a7a204fedd46a44fc7385588f09fa6b'}
+  - {seq: 1, role: markers, filename: assets/KR6m0049_001.markers.yaml, hash: 'sha256:fe869b5ddabca5672e284995758a4fc5dd93792515ba998121133cab545be6ab'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6m0049_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 880-A 物不遷論辯解題辭
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6m0049_X_000-mulu-2
+    span:
+    - front
+    - 199
+    - 199
+  label: No. 880-B 物不遷論辯解序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6m0049_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 7765
+  label: 物不遷論辯解
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6m0049_X_001-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 物不遷論辯解
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6m0049_X_001-mulu-2
+    span:
+    - body
+    - 7431
+    - 7431
+  label: No. 880-C
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6m0049_X_001-mulu-3
+    span:
+    - body
+    - 7588
+    - 7588
+  label: No. 880-D
+  type: mulu
+  level: 1
+hash: sha256:45d785f8de199fdc8170c1e05e9a212d522d321a9d596d04ad9706fb0d0841e4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
