@@ -19,17 +19,17 @@ metadata:
     short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6m0049_000-X.yaml, hash: 'sha256:f00d112a308c9450684e4ed23e659e3c347feeec18599dee9f19c35b2a8e524d'}
+  - {seq: 0, filename: KR6m0049_000-X.yaml, hash: 'sha256:455b0427198a286535c691ab0dfeaa1892f5974dc4b3b39fb1c8b97ca2568cff'}
   - {seq: 1, filename: KR6m0049_001-X.yaml, hash: 'sha256:61a16dde4beaf2603510cd1becc2f08920a20f3dad2deef4bd429caed007bbc4'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6m0049_000-X.markers.yaml, hash: 'sha256:a2150cf6a80f7b611a637828e256ae4694a9040589c3fe37064b1c7563a8aefd'}
+  - {seq: 0, role: markers, filename: assets/KR6m0049_000-X.markers.yaml, hash: 'sha256:1b84561611c20742ecc0a353efea68e3c39d111d5f1659fce4fd32ed6c245880'}
   - {seq: 1, role: markers, filename: assets/KR6m0049_001-X.markers.yaml, hash: 'sha256:782b58887eb11e17ff32eb5f9304805ad3400e4c324afba22bf3bb25c070ad4d'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6m0049_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 880-A 物不遷論辯解題辭
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6m0049_X_000-mulu-2
     span:
-    - front
+    - body
     - 199
     - 199
   label: No. 880-B 物不遷論辯解序
@@ -85,4 +85,4 @@ table_of_contents:
   label: No. 880-D
   type: mulu
   level: 1
-hash: sha256:5773a34a29cffe47aaa9a854dbfdf11e3cb033ef8a5f9c8fc830a342e4764ef1
+hash: sha256:d18bda8e0c101757314563a6c4749fc57d54d3c889ac212db66ff48069c66475
